@@ -1,1 +1,179 @@
-﻿
+﻿body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#headerall {
+    width: 1440px;
+    height: 100px;
+}
+
+.container-fluid {
+    font-size: 14px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.navbar-brand img {
+    padding-top: 10px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+    padding-right: 366px;
+}
+
+#rightheader {
+    padding-top: 55px;
+    padding-bottom: 28px;
+    width: 740px;
+}
+
+.nav-item {
+    height: 17px;
+
+}
+
+.nav-link {
+    color: #484848;
+    font-size: 14px;
+    padding: 0;
+    height: 17px;
+    padding-right: 45px;
+}
+
+.nav-link.active {
+    color: #A2171C;
+}
+
+.nav-link:hover {
+    color: #A2171C;
+}
+
+footer {
+    width: 1440px;
+    height: 300px;
+}
+
+.footer-top {
+    width: 1440px;
+    height: 250px;
+    background-color: #EEEEEE;
+}
+
+.footerall {
+    height: 250px;
+    padding-top: 38px;
+    padding-bottom: 27px;
+}
+
+.address {
+    padding-left: 32px;
+}
+
+.address-top {
+    padding-bottom: 30px;
+}
+
+.text-address {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.address-bottom ul {
+    padding-left: 0px;
+}
+
+.address-bottom ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.address-bottom ul li p {
+    font-size: 14px;
+}
+
+.navigate {
+    padding-left: 22px;
+}
+
+.navigate2 {
+    padding-left: 0px;
+}
+
+.navigate-left h5 {
+    padding-bottom: 30px;
+}
+
+.navigate-left ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navigate-left ul li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.navigate-right ul {
+    padding-top: 60px;
+    padding-left: 0px;
+}
+
+.navigate-right ul li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.buttonfooterall {
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 132px;
+}
+
+.buttonfooter button {
+    width: 173px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #333333;
+    font-size: 14px;
+}
+
+.buttonfooter button:hover {
+    background-color: black;
+}
+
+.buttonfooter button img {
+    padding-bottom: 5px;
+}
+
+.top-ft {
+    padding-bottom: 15px;
+}
+
+.footer-bottom {
+    width: 1440px;
+    height: 50px;
+    background-color: #DCDCDC;
+
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.rightftbottom {
+    padding-left: 183px;
+}
+
+.buttondown {
+    padding-right: 46px;
+}
+
+.footer-top .container {
+    height: 250px;
+}
+
+.icon-buttondown {
+    padding-right: 21px;
+}
