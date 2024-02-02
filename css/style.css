@@ -412,3 +412,123 @@
 
 
 
+.footer-bottom {
+    width: 1440px;
+    height: 50px;
+    background-color: #DCDCDC;
+
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.rightftbottom {
+    padding-left: 183px;
+}
+
+.buttondown {
+    padding-right: 46px;
+}
+
+.footer-top .container {
+    height: 250px;
+}
+
+.icon-buttondown {
+    padding-right: 21px;
+}
+
+.breadcrumb-nav {
+    height: 97px;
+
+    /* background-color: red; */
+
+}
+
+.breadcrumb-nav a {
+    text-decoration: none;
+}
+
+.text-guide {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #000;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article-color {
+    background-color: #f8f8f8;
+}
+
+.icon-tittle {
+    margin: 25px;
+    margin-bottom: 20px;
+}
+
+.icon-tittle .rounded-circle {
+    width: 50px;
+    height: 50px;
+}
+.icon-tittle .tittle {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input#select-file::file-selector-button {
+    display: none;
+
+}
+
+.select-file-div {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.inner-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* bottom: 0; */
+    right: 1rem;
+    /* padding: 8px; */
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.form-check-input {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 0.6rem;
+}
+
+.form-label, .form-check-label {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.companyinformation {
+    /* border-radius: 10px; */
+    /* margin-top: 25px; */
+}
+
+.jobdetail {
+    /* margin-top: 25px; */
+
+    /* border-radius: 10px; */
+}
