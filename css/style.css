@@ -177,3 +177,166 @@ footer {
 .icon-buttondown {
     padding-right: 21px;
 }
+
+.breadcrumb-nav {
+    height: 97px;
+
+    /* background-color: red; */
+
+}
+
+.breadcrumb-nav a {
+    text-decoration: none;
+}
+
+.text-guide {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ 
+}
+
+
+/* .banner {
+    background-image: url("../images/banner_employer.png");
+    background-color: #f8f8f8;
+     
+} */
+
+
+.banner {
+    width: 100%;
+    /* Chiều rộng của banner */
+    height: 250px;
+    background-image: url("../images/banner_employer.png");
+    /* Đường dẫn đến hình ảnh */
+    background-size: cover;
+    /* Kích thước hình ảnh sẽ được điều chỉnh để phù hợp với kích thước của banner */
+    background-position: center;
+    /* Căn giữa hình ảnh */
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+}
+
+
+.article-color {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/employer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #f8f8f8;
+}
+
+.cards {
+    padding-bottom: 84px;
+ 
+}
+
+@media only screen and (max-width: 414px) {
+    .banner {
+        background-image: url("../images/banner-mobile.png");
+    }
+
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
+
+    .text-guide {
+      
+        word-spacing: -0.4px;
+    }
+    .cards {
+        /* background-color: red; */
+        padding-bottom: 99px;
+        /* margin-bottom: 99px; */
+
+     
+    }
+
+    .article-color {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url("../images/employer-bg-mobile.png");
+        background-size: cover;
+        background-position: center;
+        background-color: #f8f8f8;
+    }
+}
+
+
+.icon-tittle {
+    margin: 25px;
+    margin-bottom: 20px;
+}
+
+.icon-tittle .rounded-circle {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-tittle .tittle {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input#select-file::file-selector-button {
+    display: none;
+
+}
+
+.select-file-div {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.inner-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* bottom: 0; */
+    right: 1rem;
+    /* padding: 8px; */
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.form-check-input {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 0.6rem;
+}
+
+.form-label,
+.form-check-label {
+    color: #333;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.companyinformation {
+    /* border-radius: 10px; */
+    /* margin-top: 25px; */
+    margin-bottom: 20px;
+
+}
+
+.jobdetail {
+    /* margin-top: 25px; */
+
+    /* border-radius: 10px; */
+}

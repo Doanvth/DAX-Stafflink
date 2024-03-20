@@ -1,0 +1,63 @@
+{
+    "jobSeeker": [
+        {
+            "jobTittle": "Academic Affairs Executive",
+            "jobDescription": "Abcd",
+            "jobResponsibilities": "Abcd",
+            "requirements": "Abcd",
+            "jobType": "PermanentFullTime",
+            "location": "Central",
+            "workingHours": "10am-7pm(Mon-Fri)",
+            "classification": "Property / Real Estate",
+            "salary": "From S$2,000.00 to S$2,000.00"
+        }
+    ],
+    "newsroom": [
+        {
+            "tittle": "THE ROLE OF HR IS CONSTANTLY EVOLVING. WHAT CAN HR PROFESSIONALS DO TO ENSURE CONTINUED RELEVANCE TO THE ORGANISATION?",
+            "date": "02 Nov 2018",
+            "description": "Nhiều lắm"
+        }
+    ],
+    "companyInformation": [
+        {
+            "contactPersonName": "Tinh",
+            "companyName": "MWG",
+            "contactNumber": "0321144566",
+            "emailAddress": "tinhcute@gmail.com"
+        }
+    ],
+    "job": [
+        {
+            "jobTittle": "Tê điều",
+            "jobLocation": "Đị chỉa",
+            "addionalInformation": "Thông tin thêm",
+            "attachedJobDescription": "tinhcute@gmail.com",
+            "jobType": "tinhcute@gmail.com"
+        }
+    ],
+    "contactUs": [
+        {
+            "name": "Name",
+            "companyName": "Ten công ty",
+            "jobTitle": "jobDetail",
+            "email": "tinhcute@gmail.com",
+            "contactNo": "12345",
+            "enquiry": "some thing"
+        }
+        
+    ]
+    ,
+    "jobRegistration":[
+        {
+            "name": "Name",
+            "nationality": "Ten công ty",
+            "contactNo": "contactNo",
+            "emailAddress": "emailAddress@gmail.com",
+            "address": "address",
+            "postalCode": "820000",
+            "attachResume": "attachResume"
+        }
+        
+    ]
+}
