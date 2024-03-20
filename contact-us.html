@@ -2,259 +2,251 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="vendor/bootstrap-icons-1.11.3/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="assets/angular.min.js"></script>
-  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
-  <script src="js/main.js"></script>
-  <title>STAFFLINK</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="vendor/bootstrap-icons-1.11.3/font/bootstrap-icons.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="assets/angular.min.js"></script>
+	<script src="vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script src="js/main.js"></script>
+	<title>STAFFLINK</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="headerall">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav justify-content-end" id="rightheader">
-            <li class="nav-item">
-              <a class="nav-link" href="#" onclick="activateTab(this)">HOME
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onclick="activateTab(this)">ABOUT US
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onclick="activateTab(this)">JOBSEEKERS
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onclick="activateTab(this)">EMPLOYERS
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onclick="activateTab(this)">NEWSROOM
-              </a>
-            </li>
-            <li class="nav-item ctus">
-              <a class="nav-link" href="#" onclick="activateTab(this)">CONTACT US
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Start: Picture -->
-  <img class="w-100 d-none d-lg-block" alt="img" src="images/contact_us.png">
-  <img class="w-100 d-block d-lg-none" src="images/contact_us_mobile.png" alt="img mobile">
-  <!-- End Picture -->
+<header>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary" id="headerall">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""/></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="nav justify-content-end" id="rightheader">
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="activateTab(this)">HOME
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="activateTab(this)">ABOUT US
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="activateTab(this)">JOBSEEKERS
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="activateTab(this)">EMPLOYERS
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#" onclick="activateTab(this)">NEWSROOM
+						</a>
+					</li>
+					<li class="nav-item ctus">
+						<a class="nav-link" href="#" onclick="activateTab(this)">CONTACT US
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- Start: Picture -->
+<img class="w-100 d-none d-lg-block" alt="img" src="images/contact_us.png">
+<img class="w-100 d-block d-lg-none" src="images/contact_us_mobile.png" alt="img mobile">
+<!-- End Picture -->
 
-  <!-- Start: breadcrumb -->
-  <div class="container mt-5">
-    <nav aria-label="breadcrumb" class="bg-breadcrumb">
-      <ol class="breadcrumb list-breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html" class="text-decoration-none breadcrumb-text">Home</a>
-        </li>
-        <li class="breadcrumb-item active">
-          Contact Us
-        </li>
-      </ol>
-    </nav>
-  </div>
-  <!-- End: breadcrumb -->
+<!-- Start: breadcrumb -->
+<div class="container mt-5">
+	<nav aria-label="breadcrumb" class="bg-breadcrumb">
+		<ol class="breadcrumb list-breadcrumb">
+			<li class="breadcrumb-item">
+				<a href="index.html" class="text-decoration-none breadcrumb-text">Home</a>
+			</li>
+			<li class="breadcrumb-item active">
+				Contact Us
+			</li>
+		</ol>
+	</nav>
+</div>
+<!-- End: breadcrumb -->
 
-  <!-- Start: Page main -->
-  <main class="contact-us">
-    <div class="container">
-      <h2 class="text-Contact">
-        Contact Us
-      </h2>
-      <p class="fw-medium">
-        If you have any further questions, Don't hesitate to contact us
-        and leave information we will contact to assist you with your
-        enquiry shortly.
-      </p>
-      <div class="row mt-5">
-        <div class="col-lg-4">
+<!-- Start: Page main -->
+<main class="contact-us">
+	<div class="container">
+		<h2 class="text-Contact">
+			Contact Us </h2>
+		<p class="fw-medium">
+			If you have any further questions, Don't hesitate to contact us
+			and leave information we will contact to assist you with your
+			enquiry shortly. </p>
+		<div class="row mt-5">
+			<div class="col-lg-4">
 
-          <form class="border p-4 rounded shadow mb-5 form-contact">
-            <div class="button-general">
-              <img src="images/send.png" alt="">
-              <p class="fw-bolder general-text">General Enquiry</p>
-            </div>
-            <div class="custom-group mb-3">
-              <label class="form-label" for="name">Name
-                <span class="text-danger">*</span>
-              </label>
-              <input class="form-control contact-input" type="text" id="name" name="name" data-bs-theme="light"
-                autofocus />
-            </div>
-            <div class="custom-group mb-3">
-              <label class="form-label" for="Company-Name">Company Name</label>
-              <input class="form-control contact-input" type="text" id="subject" name="subject" data-bs-theme="light" />
-            </div>
-            <div class="custom-group mb-3">
-              <label class="form-label" for="Job-Title">Job Title</label>
-              <input class="form-control contact-input" type="text" id="email" name="email" data-bs-theme="light" />
-            </div>
-            <div class="custom-group mb-3">
-              <label class="form-label" for="email">Email
-                <span class="text-danger">*</span>
-              </label>
-              <input class="form-control contact-input" type="email" id="email" name="email" data-bs-theme="light" />
-            </div>
-            <div class="custom-group mb-3">
-              <label class="form-label" for="Contact-no">Contact No
-                <span class="text-danger">*</span>
-              </label>
-              <input class="form-control contact-input" type="text" id="nummber" name="number" data-bs-theme="light" />
-            </div>
-            <div class="textarea-Enquiry">
-              <label class="form-label" for="Enquiry">Enquiry</label>
-              <textarea class="form-control contact-textarea" id="enquiry" name="enquiry" rows="5"></textarea>
-            </div>
-            <button class="button-contact-send" type="submit">Send<i class="bi bi-arrow-right spacing-icon"></i>
-            </button>
-          </form>
-        </div>
+				<form class="border p-4 rounded shadow mb-5 form-contact">
+					<div class="button-general">
+						<img src="images/send.png" alt="">
+						<p class="fw-bolder general-text">General Enquiry</p>
+					</div>
+					<div class="custom-group mb-3">
+						<label class="form-label" for="name">Name
+							<span class="text-danger">*</span>
+						</label>
+						<input class="form-control contact-input" type="text" id="name" name="name" data-bs-theme="light" autofocus/>
+					</div>
+					<div class="custom-group mb-3">
+						<label class="form-label" for="Company-Name">Company Name</label>
+						<input class="form-control contact-input" type="text" id="subject" name="subject" data-bs-theme="light"/>
+					</div>
+					<div class="custom-group mb-3">
+						<label class="form-label" for="Job-Title">Job Title</label>
+						<input class="form-control contact-input" type="text" id="email" name="email" data-bs-theme="light"/>
+					</div>
+					<div class="custom-group mb-3">
+						<label class="form-label" for="email">Email
+							<span class="text-danger">*</span>
+						</label>
+						<input class="form-control contact-input" type="email" id="email" name="email" data-bs-theme="light"/>
+					</div>
+					<div class="custom-group mb-3">
+						<label class="form-label" for="Contact-no">Contact No
+							<span class="text-danger">*</span>
+						</label>
+						<input class="form-control contact-input" type="text" id="nummber" name="number" data-bs-theme="light"/>
+					</div>
+					<div class="textarea-Enquiry">
+						<label class="form-label" for="Enquiry">Enquiry</label>
+						<textarea class="form-control contact-textarea" id="enquiry" name="enquiry" rows="5"></textarea>
+					</div>
+					<button class="button-contact-send" type="submit">Send<i class="bi bi-arrow-right spacing-icon"></i>
+					</button>
+				</form>
+			</div>
 
-        <div class="col-lg-8">
-          <div class="text-infor">
-            <div class="row">
-              <div class="col-lg-4">
-                <p class="fw-bold text-address mb-0 ">Address:</p>
-                <p class="mb-0">10 Anson Road</p>
-                <p class="mb-0">#22-07 International Plaza</p>
-                <p>Singapore 079903</p>
-              </div>
-              <div class="col-lg-4">
-                <p class="fw-bold text-address mb-0">Main line:</p>
-                <p>(65) 6213 0130</p>
-              </div>
-              <div class="col-lg-4">
-                <p class="fw-bold text-address mb-0">Fax:</p>
-                <p>(65) 6213 0138</p>
-              </div>
-            </div>
+			<div class="col-lg-8">
+				<div class="text-infor">
+					<div class="row">
+						<div class="col-lg-4">
+							<p class="fw-bold text-address mb-0 ">Address:</p>
+							<p class="mb-0">10 Anson Road</p>
+							<p class="mb-0">#22-07 International Plaza</p>
+							<p>Singapore 079903</p>
+						</div>
+						<div class="col-lg-4">
+							<p class="fw-bold text-address mb-0">Main line:</p>
+							<p>(65) 6213 0130</p>
+						</div>
+						<div class="col-lg-4">
+							<p class="fw-bold text-address mb-0">Fax:</p>
+							<p>(65) 6213 0138</p>
+						</div>
+					</div>
 
 
-            <div class="card mb-3">
-              <img class="d-none d-lg-block img-map" alt="img" src="images/map.png">
-              <img class="w-100 d-block d-lg-none" src="images/map_mobile.png" alt="img mobile">
-            </div>
-          </div>
-        </div>
-      </div>
-  </main>
-  <!-- End Page Main -->
-  <footer>
-    <div class="footer-top">
-      <div class="container">
-        <div class="row footerall">
-          <div class="col-3 address">
-            <div class="address-top">
-              <h5 class="text-address">ADDRESS</h5>
-            </div>
-            <div class="address-bottom">
-              <ul class="">
-                <li class="">
-                  <p>
-                    10 Anson Road <br />
-                    #22-07 International Plaza <br />
-                    Singapore 079903
-                  </p>
-                </li>
-                <li class="">
-                  <p>
-                    Main line: (65) 6213 0130 <br />
-                    Fax: (65) 6213 0138
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="row">
-              <div class="col-6 navigate">
-                <div class="navigate-left">
-                  <h5 class="text-address">NAVIGATE</h5>
+					<div class="card mb-3">
+						<img class="d-none d-lg-block img-map" alt="img" src="images/map.png">
+						<img class="w-100 d-block d-lg-none" src="images/map_mobile.png" alt="img mobile">
+					</div>
+				</div>
+			</div>
+		</div>
+</main>
+<!-- End Page Main -->
+<footer>
+	<div class="footer-top">
+		<div class="container">
+			<div class="row footerall">
+				<div class="col-3 address">
+					<div class="address-top">
+						<h5 class="text-address">ADDRESS</h5>
+					</div>
+					<div class="address-bottom">
+						<ul class="">
+							<li class="">
+								<p>
+									10 Anson Road <br/>
+									#22-07 International Plaza <br/>
+									Singapore 079903 </p>
+							</li>
+							<li class="">
+								<p>
+									Main line: (65) 6213 0130 <br/>
+									Fax: (65) 6213 0138 </p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="row">
+						<div class="col-6 navigate">
+							<div class="navigate-left">
+								<h5 class="text-address">NAVIGATE</h5>
 
-                  <ul class="" id="">
-                    <li class="">
-                      <a class="nav-link" href="#"> Home </a>
-                    </li>
-                    <li class="">
-                      <a class="nav-link" href="#"> About us </a>
-                    </li>
-                    <li class="">
-                      <a class="nav-link" href="#"> Jobseekers </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-6 navigate2">
-                <div class="navigate-right">
-                  <ul class="" id="">
-                    <li class="">
-                      <a class="nav-link" href="#"> Employers </a>
-                    </li>
-                    <li class="">
-                      <a class="nav-link" href="#"> Newsroom </a>
-                    </li>
-                    <li class="">
-                      <a class="nav-link" href="#"> Contact us </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 buttonfooterall">
-            <div class="buttonfooter top-ft">
-              <button type="button" class="btn btn-secondary">
-                <img src="images/fb.png" alt="" class="icon-buttondown" />
-                Our Facebook
-              </button>
-            </div>
-            <div class="buttonfooter">
-              <button type="button" class="btn btn-secondary buttondown">
-                <img src="images/in.png" alt="" class="icon-buttondown" />
-                Linkedin
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-9">
-            <p>
-              Copyright 2018 © Stafflink Services Pte Ltd (EA Licence No.
-              04C4294). All rights reserved.
-            </p>
-          </div>
-          <div class="col-3 rightftbottom">
-            <p>Privacy Statement</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+								<ul class="" id="">
+									<li class="">
+										<a class="nav-link" href="#"> Home </a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="#"> About us </a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="#"> Jobseekers </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-6 navigate2">
+							<div class="navigate-right">
+								<ul class="" id="">
+									<li class="">
+										<a class="nav-link" href="#"> Employers </a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="#"> Newsroom </a>
+									</li>
+									<li class="">
+										<a class="nav-link" href="#"> Contact us </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 buttonfooterall">
+					<div class="buttonfooter top-ft">
+						<button type="button" class="btn btn-secondary">
+							<img src="images/fb.png" alt="" class="icon-buttondown"/>
+							Our Facebook
+						</button>
+					</div>
+					<div class="buttonfooter">
+						<button type="button" class="btn btn-secondary buttondown">
+							<img src="images/in.png" alt="" class="icon-buttondown"/>
+							Linkedin
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom py-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-9">
+	                    <span> Copyright 2018 © Stafflink Services Pte Ltd (EA Licence No. 04C4294). All rights reserved.
+	                    </span>
+				</div>
+				<div class="col-3 text-right">
+					<span>Privacy Statement</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 </body>
 
 </html>
