@@ -1,156 +1,140 @@
-.PC07112 .newroom-detail {
-  padding: 0;
-  margin: 0 112px 0 112px;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
-.PC07112 .newroom-detail-breadcrumb {
-  margin-bottom: 40px;
-  margin-top: 40px;
+
+#headerall {
+    width: 1440px;
+    height: 100px;
 }
-.PC07112 .newroom-detail-home {
-  font-size: 14px;
-  text-decoration: none;
-  color: #b1b1b1;
+
+.container-fluid {
+    font-size: 14px;
+    height: 100px;
+    background-color: #FFFFFF;
 }
-.PC07112 .newsroom-text {
-  font-size: 14px;
-  text-decoration: none;
-  color: #a2171c;
+
+.navbar-brand img {
+    padding-top: 10px;
+    padding-left: 65px;
+    padding-bottom: 20px;
+    padding-right: 366px;
 }
-.PC07112 #newroom-detail-come-back {
-  position: relative;
-  margin-bottom: 150px;
+
+#rightheader {
+    padding-top: 55px;
+    padding-bottom: 28px;
+    width: 740px;
 }
-.PC07112 .newroom-detail-come-back {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.nav-item {
+    height: 17px;
+
 }
-.PC07112 .newroom-detail-come-back a {
-  font-size: 14px;
-  text-decoration: none;
-  color: #a2171c;
-  float: left;
-  padding-bottom: 22px;
-  margin-top: 0;
+
+.nav-link {
+    color: #484848;
+    font-size: 14px;
+    padding: 0;
+    height: 17px;
+    padding-right: 45px;
 }
-.PC07112 .newroom-detail-come-back img {
-  padding-right: 10px;
-  padding-left: 10px;
+
+.nav-link.active {
+    color: #A2171C;
 }
-.PC07112 #icon-social {
-  float: right;
-  display: flex;
-  align-items: center;
+
+.nav-link:hover {
+    color: #A2171C;
 }
-.PC07112 .icon-social {
-  color: #a2171c;
-  width: 40px;
-  height: 40px;
-  padding-left: 9px;
-  padding-top: 4px;
-  display: inline-flex;
-  border-radius: 28px;
-  margin-left: 5px;
+
+footer {
+    width: 1440px;
+    height: 300px;
 }
-.PC07112 .newroom-detail-shortcut {
-  float: right;
-  display: flex;
-  align-items: center;
-  display: none;
+
+.footer-top {
+    width: 1440px;
+    height: 250px;
+    background-color: #EEEEEE;
 }
-.PC07112 .icon-social > img {
-  font-size: 40px;
+
+.footerall {
+    height: 250px;
+    padding-top: 38px;
+    padding-bottom: 27px;
 }
-.PC07112 .newroom-detail-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #a2171c;
-  margin-top: 50px;
+
+.address {
+    padding-left: 32px;
 }
-.PC07112 .newroom-detail-date {
-  padding-top: 16px;
+
+.address-top {
+    padding-bottom: 30px;
 }
-.PC07112 .newroom-detail-datetime {
-  margin-right: 10px;
-  color: #a2171c;
+
+.text-address {
+    font-size: 14px;
+    font-weight: 600;
 }
-.PC07112 .newroom-detail-content {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #000000;
-  max-width: 98%;
+
+.address-bottom ul {
+    padding-left: 0px;
 }
-.PC07112 .newroom-detail-introduce {
-  color: #333333;
-  margin: 0;
-  padding-bottom: 28px;
+
+.address-bottom ul li {
+    text-decoration: none;
+    list-style: none;
 }
-.PC07112 .newroom-detail-post {
-  margin-left: 50px;
-  max-width: 70%;
+
+.address-bottom ul li p {
+    font-size: 14px;
 }
-.PC07112 .related-post {
-  font-weight: bold;
-  font-size: 18px;
-  color: #333333;
-  margin: 0;
-  padding-bottom: 8px;
-  padding-top: 10px;
-  display: inline-block;
+
+.navigate {
+    padding-left: 22px;
 }
-.PC07112 .related-post-title {
-  font-weight: bold;
-  color: #a2171c;
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+
+.navigate2 {
+    padding-left: 0px;
 }
-.PC07112 .related-post-date {
-  padding-bottom: 15px;
-  color: #333333;
+
+.navigate-left h5 {
+    padding-bottom: 30px;
 }
-.PC07112 .contact {
-  position: fixed;
-  top: 43.8%;
-  right: 0;
-  transform: translateY(-50%);
-  background-color: #a2171c;
-  padding: 10px;
-  z-index: 999;
-  border-radius: 10px 0 0 10px;
-  height: 176px;
-  width: 60px;
+
+.navigate-left ul {
+    list-style: none;
+    padding-left: 0px;
 }
-.PC07112 .contact span {
-  writing-mode: vertical-lr;
-  text-orientation: sideways;
-  transform: rotate(180deg);
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffffff;
+
+.navigate-left ul li {
+    list-style: none;
+    padding-bottom: 5px;
 }
-.PC07112 .contact span img {
-  margin-left: 2px;
-  margin-bottom: 6px;
-  height: 21px;
-  width: 14px;
-  transform: rotate(-180deg);
+
+.navigate-right ul {
+    padding-top: 60px;
+    padding-left: 0px;
 }
-.PC07112 .newroom-logo {
-  display: inline;
+
+.navigate-right ul li {
+    list-style: none;
+    padding-bottom: 5px;
 }
-.PC07112 .newroom-logo-mobile {
-  display: none;
+
+.buttonfooterall {
+    padding-top: 65px;
+    padding-left: 25px;
+    padding-right: 132px;
 }
-.PC07112 .newroom {
-  padding: 0;
-  margin: 0 112px 0 112px;
-}
-.PC07112 .newroom-breadcrumb {
-  margin-bottom: 15px;
-  margin-top: 40px;
-  font-size: 14px;
+
+.buttonfooter button {
+    width: 173px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #333333;
+    font-size: 14px;
 }
 .PC07112 .newroom-date {
   transform: translateY(10px);
@@ -194,182 +178,163 @@
 .PC07112 .newroom-dashed-border:first-child {
   background-image: none !important;
 }
-.PC07112 .newroom-dashed-border {
-  background-image: repeating-linear-gradient(
-    to right,
-    #e0e0e0,
-    #e0e0e0 5px,
-    transparent 5px,
-    transparent 10px
-  );
-  background-size: 20px 1px;
-  background-repeat: repeat-x;
-  padding-top: 30px;
-  padding-bottom: 20px;
+
+.footer-top .container {
+    height: 250px;
 }
-.PC07112 .newroom-solid-border {
-  border-left: 1px #e5e5e5 solid;
-  margin-bottom: 10px;
-  padding-left: 25px;
+
+.icon-buttondown {
+    padding-right: 21px;
 }
-.PC07112 .newroom-pagination {
-  height: 30px;
-  margin-bottom: 50px;
+
+/* Start Tien */
+.text-Contact {
+  color: black;
+  width: 202px;
+  height: 50px
 }
-.PC07112 .newroom-convert a {
+
+.bg-breadcrumb {
+  --bs-breadcrumb-divider: '-';
+}
+
+.list-breadcrumb {
+  background-color: white;
+}
+
+/* breadcrumb-text */
+.breadcrumb-text {
+  color: #b1b1b1;
+}
+
+.breadcrumb-item.active {
+  color: #a2171c;
+}
+
+/*button-general*/
+.button-general {
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.general-text {
+  margin-left: 14px;
+  margin-bottom: 0;
+}
+
+.contact-textarea {
+  width: 350px;
+  height: 117px;
+}
+
+/* button-text-danger */
+.button-contact-send {
+  background-color: rgb(255, 255, 255);
+  color: #a2171c;
+  border: 1px solid #a2171c;
+  /* Màu viền */
+  margin-top: 20px;
+  width: 350px;
+  height: 40px;
+}
+
+.spacing-icon {
+  margin-left: 25px;
+}
+
+.button-contact-send:hover {
+  color: #fff;
   background-color: #a2171c;
-  color: #ffffff;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
 }
-.PC07112 .newroom-page-item a {
+
+.form-contact {
+  width: 400px;
+  height: 710px;
+}
+
+.img-map {
+  width: 855px;
+  height: 595px;
+}
+
+.custom-group {
+  flex-direction: column;
+  height: 62px;
+}
+
+.custom-group label,
+.custom-group input {
+  margin-bottom: 5px;
+}
+
+.custom-group input {
+  height: 40px;
+}
+
+/*  textarea Enquiry*/
+.textarea-Enquiry {
+  margin-top: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  color: #333333;
-  font-size: 14px;
-  font-weight: bold;
-  width: 30px;
+  flex-direction: column;
+  height: 141px;
 }
 
-.pagination-index-n {
-  color: #bdbdbd;
+.text-address {
+  color: #a2171c;
 }
 
-@media only screen and (max-width: 470px){
-  /* Newsroom Detail*/
-  .newroom-detail{
-    max-width: 370px ;
-    margin: 0 30px 0 30px;
+.text-infor {
+  padding: 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 470px) {
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400px;
   }
 
-  .newroom-detail-breadcrumb{
-    padding: 0;
-    margin: 25px 0 30px 0 !important;
-  }
-  
-  #newroom-detail-come-back{
-    margin-bottom: 0;
-    padding: 0 0 0 12px;
+  .breadcrumb {
+    padding: 0px 30px 0px 30px;
   }
 
-  .newroom-detail-come-back a img{
-    padding-left: 12px;
+  .breadcrumb-item.active.text-page {
+    color: #a2171c;
   }
 
-  #icon-social{
-    display: none;
-  }
-  
-  .newroom-detail-shortcut{
-    display: flex;
-    margin-right: 40px;
+  .contact-us {
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
   }
 
-  .newroom-detail-shortcut a img{
-    width: 40px;
-    height: 40px;
-  }
-
-  .newroom-detail-title{
-    padding-top: 20px;
-    max-width: 320px;
-  }
-
-  .newroom-detail-content{
-    max-width: 350px;
-  }
-  .related-post{
-    padding-top: 0;
-    padding-bottom: 22px;
-  }
-
-  .adjust-distance{
-    margin-bottom: 12px;
-  }
-
-  .newroom-detail-post{
-    margin-left: 0px;
-    margin-bottom: 130px;
-    padding: 0;
-  }
-
-  .contact{
-    width: 40px;
-    height: 176px;
-  }
-
-  /* Newsroom*/
-  .newroom-logo-desktop{
-    display: none;
-  }
-
-  .newroom-logo-mobile{
-    display: block;
+  .form-contact {
+    max-width: 370px !important;
     width: 100%;
   }
 
-  .newroom{
-    margin: 0 30px 0 30px;
-    max-width: 370px;
+  .button-general {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-textarea {
+    width: 100%;
+  }
+
+  .button-contact-send {
+    width: 100% !important;
+    color: #a2171c;
+    border-color: #a2171c;
+    margin-top: 20px;
+  }
+
+  .text-address {
+    color: #a2171c;
+  }
+
+  .text-infor {
     padding: 0;
-  }
-  
-  .newroom-breadcrumb{
-    margin: 32px 0 10px 0 !important;
-  }
-
-  .newroom-date{
-    margin-bottom: 20px;
-  }
-
-  .newroom-cover-dateicon{
-    max-width: 14%;
-  }
-
-  .newroom-cover-time{
-    max-width: 40%;
-  }
-
-  .newroom-solid-border{
-    margin-left: 10px;
-    padding-left: 0;
-    border-left: none;
-  }
-
-  .newroom-title-news{
-    display: none;
-  }
-
-  .newroom-news{
-    padding: 0;
-  }
-
-  .newroom-title-news-mobile{
-    max-width: 350px;
-    display: block;
-    margin-bottom: 0;
-  }
-  
-  .newroom-content-news{
-    max-width: 343px;
-  }
-  
-  .newroom-dashed-border{
-    background-image: repeating-linear-gradient(to right, #E0E0E0, #E0E0E0 5px, transparent 5px, transparent 10px); 
-    background-size: 20px 1px; 
-    background-repeat: repeat-x;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    max-width: 359px;
   }
 }
 
-
-
-
+/* End Tien */
