@@ -1,179 +1,330 @@
 ﻿body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
 }
 
+/* Header */
 #headerall {
-    width: 1440px;
-    height: 100px;
+  width: 1440px;
+  height: 100px;
 }
 
 .container-fluid {
-    font-size: 14px;
-    height: 100px;
-    background-color: #FFFFFF;
+  font-size: 14px;
+  height: 100px;
+  background-color: #ffffff;
 }
 
 .navbar-brand img {
-    padding-top: 10px;
-    padding-left: 65px;
-    padding-bottom: 20px;
-    padding-right: 366px;
+  padding-top: 10px;
+  padding-left: 65px;
+  padding-bottom: 20px;
+  padding-right: 366px;
 }
 
 #rightheader {
-    padding-top: 55px;
-    padding-bottom: 28px;
-    width: 740px;
+  padding-top: 55px;
+  padding-bottom: 28px;
+  width: 740px;
 }
 
 .nav-item {
-    height: 17px;
-
+  height: 17px;
 }
 
 .nav-link {
-    color: #484848;
-    font-size: 14px;
-    padding: 0;
-    height: 17px;
-    padding-right: 45px;
+  color: #484848;
+  font-size: 14px;
+  padding: 0;
+  height: 17px;
+  padding-right: 45px;
 }
 
 .nav-link.active {
-    color: #A2171C;
+  color: #a2171c;
 }
 
 .nav-link:hover {
-    color: #A2171C;
+  color: #a2171c;
 }
 
 footer {
-    width: 1440px;
-    height: 300px;
+  width: 1440px;
+  height: 300px;
 }
 
 .footer-top {
-    width: 1440px;
-    height: 250px;
-    background-color: #EEEEEE;
+  width: 1440px;
+  height: 250px;
+  background-color: #eeeeee;
 }
 
 .footerall {
-    height: 250px;
-    padding-top: 38px;
-    padding-bottom: 27px;
+  height: 250px;
+  padding-top: 38px;
+  padding-bottom: 27px;
 }
 
 .address {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .address-top {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .text-address {
-    font-size: 14px;
-    font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .address-bottom ul {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .address-bottom ul li {
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
 }
 
 .address-bottom ul li p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .navigate {
-    padding-left: 22px;
+  padding-left: 22px;
 }
 
 .navigate2 {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .navigate-left h5 {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .navigate-left ul {
-    list-style: none;
-    padding-left: 0px;
+  list-style: none;
+  padding-left: 0px;
 }
 
 .navigate-left ul li {
-    list-style: none;
-    padding-bottom: 5px;
+  list-style: none;
+  padding-bottom: 5px;
 }
 
 .navigate-right ul {
-    padding-top: 60px;
-    padding-left: 0px;
+  padding-top: 60px;
+  padding-left: 0px;
 }
 
 .navigate-right ul li {
-    list-style: none;
-    padding-bottom: 5px;
+  list-style: none;
+  padding-bottom: 5px;
 }
 
 .buttonfooterall {
-    padding-top: 65px;
-    padding-left: 25px;
-    padding-right: 132px;
+  padding-top: 65px;
+  padding-left: 25px;
+  padding-right: 132px;
 }
 
 .buttonfooter button {
-    width: 173px;
-    height: 40px;
-    border-radius: 100px;
-    background-color: #333333;
-    font-size: 14px;
+  width: 173px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #333333;
+  font-size: 14px;
 }
 
 .buttonfooter button:hover {
-    background-color: black;
+  background-color: black;
 }
 
 .buttonfooter button img {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .top-ft {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .footer-bottom {
-    width: 1440px;
-    height: 50px;
-    background-color: #DCDCDC;
-
+  width: 1440px;
+  height: 50px;
+  background-color: #dcdcdc;
 }
 
 .footer-bottom p {
-    font-size: 12px;
-    padding-left: 15px;
-    padding-top: 15px;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .rightftbottom {
-    padding-left: 183px;
+  padding-left: 183px;
 }
 
 .buttondown {
-    padding-right: 46px;
+  padding-right: 46px;
 }
 
 .footer-top .container {
-    height: 250px;
+  height: 250px;
 }
 
 .icon-buttondown {
-    padding-right: 21px;
+  padding-right: 21px;
 }
+
+/* Start Tien */
+.text-Contact {
+  color: black;
+  width: 202px;
+  height: 50px
+}
+
+.bg-breadcrumb {
+  --bs-breadcrumb-divider: '-';
+}
+
+.list-breadcrumb {
+  background-color: white;
+}
+
+/* breadcrumb-text */
+.breadcrumb-text {
+  color: #b1b1b1;
+}
+
+.breadcrumb-item.active {
+  color: #a2171c;
+}
+
+/*button-general*/
+.button-general {
+  display: flex;
+  align-items: center;
+}
+
+.general-text {
+  margin-left: 14px;
+  margin-bottom: 0;
+}
+
+.contact-textarea {
+  width: 350px;
+  height: 117px;
+}
+
+/* button-text-danger */
+.button-contact-send {
+  background-color: rgb(255, 255, 255);
+  color: #a2171c;
+  border: 1px solid #a2171c;
+  /* Màu viền */
+  margin-top: 20px;
+  width: 350px;
+  height: 40px;
+}
+
+.spacing-icon {
+  margin-left: 25px;
+}
+
+.button-contact-send:hover {
+  color: #fff;
+  background-color: #a2171c;
+}
+
+.form-contact {
+  width: 400px;
+  height: 710px;
+}
+
+.img-map {
+  width: 855px;
+  height: 595px;
+}
+
+.custom-group {
+  flex-direction: column;
+  height: 62px;
+}
+
+.custom-group label,
+.custom-group input {
+  margin-bottom: 5px;
+}
+
+.custom-group input {
+  height: 40px;
+}
+
+/*  textarea Enquiry*/
+.textarea-Enquiry {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 141px;
+}
+
+.text-address {
+  color: #a2171c;
+}
+
+.text-infor {
+  padding: 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 470px) {
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400px;
+  }
+
+  .breadcrumb {
+    padding: 0px 30px 0px 30px;
+  }
+
+  .breadcrumb-item.active.text-page {
+    color: #a2171c;
+  }
+
+  .contact-us {
+    flex-direction: column;
+    padding: 0px 30px 0px 30px;
+  }
+
+  .form-contact {
+    max-width: 370px !important;
+    width: 100%;
+  }
+
+  .button-general {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-textarea {
+    width: 100%;
+  }
+
+  .button-contact-send {
+    width: 100% !important;
+    color: #a2171c;
+    border-color: #a2171c;
+    margin-top: 20px;
+  }
+
+  .text-address {
+    color: #a2171c;
+  }
+
+  .text-infor {
+    padding: 0;
+  }
+}
+
+/* End Tien */
