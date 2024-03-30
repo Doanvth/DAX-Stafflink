@@ -1,342 +1,444 @@
-﻿body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-}
-
-#headerall {
+.PC07215 #headerall {
     width: 1440px;
-    height: 100px;
+    height: 100px
 }
 
-.container-fluid {
+.PC07215 .container-fluid {
     font-size: 14px;
     height: 100px;
-    background-color: #FFFFFF;
+    background-color: #ffffff
 }
 
-.navbar-brand img {
+.PC07215 .navbar-brand img {
     padding-top: 10px;
     padding-left: 65px;
     padding-bottom: 20px;
-    padding-right: 366px;
+    padding-right: 366px
 }
 
-#rightheader {
+.PC07215 #rightheader {
     padding-top: 55px;
     padding-bottom: 28px;
-    width: 740px;
+    width: 740px
 }
 
-.nav-item {
-    height: 17px;
-
+.PC07215 .nav-item {
+    height: 17px
 }
 
-.nav-link {
+.PC07215 .nav-link {
     color: #484848;
     font-size: 14px;
     padding: 0;
     height: 17px;
-    padding-right: 45px;
+    padding-right: 45px
 }
 
-.nav-link.active {
-    color: #A2171C;
+.PC07215 .nav-link.active {
+    color: #a2171c
 }
 
-.nav-link:hover {
-    color: #A2171C;
+.PC07215 .nav-link:hover {
+    color: #a2171c
 }
 
-footer {
+.PC07215 footer {
     width: 1440px;
-    height: 300px;
+    height: 300px
 }
 
-.footer-top {
+.PC07215 .footer-top {
     width: 1440px;
     height: 250px;
-    background-color: #EEEEEE;
+    background-color: #eeeeee
 }
 
-.footerall {
+.PC07215 .footerall {
     height: 250px;
     padding-top: 38px;
-    padding-bottom: 27px;
+    padding-bottom: 27px
 }
 
-.address {
-    padding-left: 32px;
+.PC07215 .address {
+    padding-left: 32px
 }
 
-.address-top {
-    padding-bottom: 30px;
+.PC07215 .address-top {
+    padding-bottom: 30px
 }
 
-.text-address {
+.PC07215 .text-address {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 600
 }
 
-.address-bottom ul {
-    padding-left: 0px;
+.PC07215 .address-bottom ul {
+    padding-left: 0px
 }
 
-.address-bottom ul li {
+.PC07215 .address-bottom ul li {
     text-decoration: none;
+    list-style: none
+}
+
+.PC07215 .address-bottom ul li p {
+    font-size: 14px
+}
+
+.PC07215 .navigate {
+    padding-left: 22px
+}
+
+.PC07215 .navigate2 {
+    padding-left: 0px
+}
+
+.PC07215 .navigate-left h5 {
+    padding-bottom: 30px
+}
+
+.PC07215 .navigate-left ul {
     list-style: none;
+    padding-left: 0px
 }
 
-.address-bottom ul li p {
-    font-size: 14px;
-}
-
-.navigate {
-    padding-left: 22px;
-}
-
-.navigate2 {
-    padding-left: 0px;
-}
-
-.navigate-left h5 {
-    padding-bottom: 30px;
-}
-
-.navigate-left ul {
+.PC07215 .navigate-left ul li {
     list-style: none;
-    padding-left: 0px;
+    padding-bottom: 5px
 }
 
-.navigate-left ul li {
-    list-style: none;
-    padding-bottom: 5px;
-}
-
-.navigate-right ul {
+.PC07215 .navigate-right ul {
     padding-top: 60px;
-    padding-left: 0px;
+    padding-left: 0px
 }
 
-.navigate-right ul li {
+.PC07215 .navigate-right ul li {
     list-style: none;
-    padding-bottom: 5px;
+    padding-bottom: 5px
 }
 
-.buttonfooterall {
+.PC07215 .buttonfooterall {
     padding-top: 65px;
     padding-left: 25px;
-    padding-right: 132px;
+    padding-right: 132px
 }
 
-.buttonfooter button {
+.PC07215 .buttonfooter button {
     width: 173px;
     height: 40px;
     border-radius: 100px;
     background-color: #333333;
-    font-size: 14px;
+    font-size: 14px
 }
 
-.buttonfooter button:hover {
-    background-color: black;
+.PC07215 .buttonfooter button:hover {
+    background-color: black
 }
 
-.buttonfooter button img {
-    padding-bottom: 5px;
+.PC07215 .buttonfooter button img {
+    padding-bottom: 5px
 }
 
-.top-ft {
-    padding-bottom: 15px;
+.PC07215 .top-ft {
+    padding-bottom: 15px
 }
 
-.footer-bottom {
+.PC07215 .footer-bottom {
     width: 1440px;
     height: 50px;
-    background-color: #DCDCDC;
-
+    background-color: #dcdcdc
 }
 
-.footer-bottom p {
+.PC07215 .footer-bottom p {
     font-size: 12px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 15px
 }
 
-.rightftbottom {
-    padding-left: 183px;
+.PC07215 .rightftbottom {
+    padding-left: 183px
 }
 
-.buttondown {
-    padding-right: 46px;
+.PC07215 .buttondown {
+    padding-right: 46px
 }
 
-.footer-top .container {
-    height: 250px;
+.PC07215 .footer-top .container {
+    height: 250px
 }
 
-.icon-buttondown {
-    padding-right: 21px;
+.PC07215 .icon-buttondown {
+    padding-right: 21px
 }
 
-.breadcrumb-nav {
-    height: 97px;
-
-    /* background-color: red; */
-
+.PC07215 .breadcrumb-nav {
+    height: 97px
 }
 
-.breadcrumb-nav a {
-    text-decoration: none;
+.PC07215 .breadcrumb-nav a {
+    text-decoration: none
 }
 
-.text-guide {
+.PC07215 .text-guide {
     padding-top: 45px;
     padding-bottom: 45px;
     color: #000;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
- 
+    line-height: normal
 }
 
-
-/* .banner {
-    background-image: url("../images/banner_employer.png");
-    background-color: #f8f8f8;
-     
-} */
-
-
-.banner {
+.PC07215 .banner {
     width: 100%;
-    /* Chiều rộng của banner */
     height: 250px;
     background-image: url("../images/banner_employer.png");
-    /* Đường dẫn đến hình ảnh */
     background-size: cover;
-    /* Kích thước hình ảnh sẽ được điều chỉnh để phù hợp với kích thước của banner */
     background-position: center;
-    /* Căn giữa hình ảnh */
     background-repeat: no-repeat;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8
 }
 
-
-.article-color {
+.PC07215 .article-color {
     width: 100%;
     background-repeat: no-repeat;
     background-image: url("../images/employer-bg.png");
     background-size: cover;
     background-position: center;
-    background-color: #f8f8f8;
+    background-color: #f8f8f8
 }
 
-.cards {
-    padding-bottom: 84px;
- 
+.PC07215 .cards {
+    padding-bottom: 84px
 }
 
 @media only screen and (max-width: 414px) {
-    .banner {
-        background-image: url("../images/banner-mobile.png");
+    .PC07215 .banner {
+        background-image: url("../images/banner-mobile.png")
     }
 
-    .container {
+    .PC07215 .container {
         padding-left: 2rem;
-        padding-right: 2rem;
-
+        padding-right: 2rem
     }
 
-    .text-guide {
-      
-        word-spacing: -0.4px;
-    }
-    .cards {
-        /* background-color: red; */
-        padding-bottom: 99px;
-        /* margin-bottom: 99px; */
-
-     
+    .PC07215 .text-guide {
+        word-spacing: -0.4px
     }
 
-    .article-color {
+    .PC07215 .cards {
+        padding-bottom: 99px
+    }
+
+    .PC07215 .article-color {
         width: 100%;
         background-repeat: no-repeat;
         background-image: url("../images/employer-bg-mobile.png");
         background-size: cover;
         background-position: center;
-        background-color: #f8f8f8;
+        background-color: #f8f8f8
     }
 }
 
-
-.icon-tittle {
+.PC07215 .icon-tittle {
     margin: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
-.icon-tittle .rounded-circle {
+.PC07215 .icon-tittle .rounded-circle {
     width: 50px;
-    height: 50px;
+    height: 50px
 }
 
-.icon-tittle .tittle {
+.PC07215 .icon-tittle .tittle {
     color: #333;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: normal
 }
 
-input#select-file::file-selector-button {
-    display: none;
-
+.PC07215 input#select-file::file-selector-button {
+    display: none
 }
 
-.select-file-div {
-    position: relative;
-    /* display: inline-block; */
+.PC07215 .select-file-div {
+    position: relative
 }
 
-.inner-button {
+.PC07215 .inner-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* bottom: 0; */
     right: 1rem;
-    /* padding: 8px; */
     background-color: transparent;
     cursor: pointer;
-    border: none;
+    border: none
 }
 
-.form-check-input {
+.PC07215 .form-check-input {
     height: 1.3rem;
     width: 1.3rem;
-    margin-right: 0.6rem;
+    margin-right: 0.6rem
 }
 
-.form-label,
-.form-check-label {
+.PC07215 .form-label,
+.PC07215 .form-check-label {
     color: #333;
     font-family: 'Lato', sans-serif;
-
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal
 }
 
-.companyinformation {
-    /* border-radius: 10px; */
-    /* margin-top: 25px; */
-    margin-bottom: 20px;
-
+.PC07215 .companyinformation {
+    margin-bottom: 20px
 }
 
-.jobdetail {
-    /* margin-top: 25px; */
+.PC07215 .jobdetail {
+    padding-right: 21px
+}
 
-    /* border-radius: 10px; */
+.PC07215 .text-Contact {
+    color: black;
+    width: 202px;
+    height: 50px
+}
+
+.PC07215 .bg-breadcrumb {
+    --bs-breadcrumb-divider: '-'
+}
+
+.PC07215 .list-breadcrumb {
+    background-color: white
+}
+
+.PC07215 .breadcrumb-text {
+    color: #b1b1b1
+}
+
+.PC07215 .breadcrumb-item.active {
+    color: #a2171c
+}
+
+.PC07215 .button-general {
+    display: flex;
+    align-items: center
+}
+
+.PC07215 .general-text {
+    margin-left: 14px;
+    margin-bottom: 0
+}
+
+.PC07215 .contact-textarea {
+    width: 350px;
+    height: 117px
+}
+
+.PC07215 .button-contact-send {
+    background-color: #fff;
+    color: #a2171c;
+    border: 1px solid #a2171c;
+    margin-top: 20px;
+    width: 350px;
+    height: 40px
+}
+
+.PC07215 .spacing-icon {
+    margin-left: 25px
+}
+
+.PC07215 .button-contact-send:hover {
+    color: #fff;
+    background-color: #a2171c
+}
+
+.PC07215 .form-contact {
+    width: 400px;
+    height: 710px
+}
+
+.PC07215 .img-map {
+    width: 855px;
+    height: 595px
+}
+
+.PC07215 .custom-group {
+    flex-direction: column;
+    height: 62px
+}
+
+.PC07215 .custom-group label,
+.PC07215 .custom-group input {
+    margin-bottom: 5px
+}
+
+.PC07215 .custom-group input {
+    height: 40px
+}
+
+.PC07215 .textarea-Enquiry {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 141px
+}
+
+.PC07215 .text-address {
+    color: #a2171c
+}
+
+.PC07215 .text-infor {
+    padding: 0
+}
+
+@media only screen and (max-width: 470px) {
+    .PC07215 body {
+        font-family: "Lato", sans-serif;
+        font-weight: 400px
+    }
+
+    .PC07215 .breadcrumb {
+        padding: 0px 30px 0px 30px
+    }
+
+    .PC07215 .breadcrumb-item.active.text-page {
+        color: #a2171c
+    }
+
+    .PC07215 .contact-us {
+        flex-direction: column;
+        padding: 0px 30px 0px 30px
+    }
+
+    .PC07215 .form-contact {
+        max-width: 370px !important;
+        width: 100%
+    }
+
+    .PC07215 .button-general {
+        display: flex;
+        align-items: center
+    }
+
+    .PC07215 .contact-textarea {
+        width: 100%
+    }
+
+    .PC07215 .button-contact-send {
+        width: 100% !important;
+        color: #a2171c;
+        border-color: #a2171c;
+        margin-top: 20px
+    }
+
+    .PC07215 .text-address {
+        color: #a2171c
+    }
+
+    .PC07215 .text-infor {
+        padding: 0
+    }
 }
