@@ -1,0 +1,644 @@
+.PC07447{
+    body {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+        }
+    
+        #header-all {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .container-fluid {
+            font-size: 14px;
+            height: 100px;
+    
+        }
+    
+        .navbar-brand img {
+            padding-top: 10px;
+            padding-left: 65px;
+            padding-bottom: 20px;
+            padding-right: 366px;
+        }
+    
+        #rightheader {
+            padding-top: 55px;
+            padding-bottom: 28px;
+            width: 740px;
+        }
+    
+        .nav-item {
+            height: 17px;
+    
+        }
+    
+        .nav-link {
+            color: #484848;
+            font-size: 14px;
+            padding: 0;
+            height: 17px;
+            padding-right: 45px;
+        }
+    
+        .nav-link.active {
+            color: #A2171C;
+        }
+    
+        .nav-link:hover {
+            color: #A2171C;
+        }
+    
+        footer {
+            width: 100%;
+            height: 300px;
+        }
+    
+        .footer-top {
+            width: 100%;
+            height: 250px;
+            background-color: #EEEEEE;
+        }
+    
+        .footerall {
+            height: 250px;
+            padding-top: 38px;
+            padding-bottom: 27px;
+        }
+    
+        .address {
+            padding-left: 32px;
+        }
+    
+        .address-top {
+            padding-bottom: 30px;
+        }
+    
+        .text-address {
+            font-size: 14px;
+            font-weight: 600;
+        }
+    
+        .address-bottom ul {
+            padding-left: 0px;
+        }
+    
+        .address-bottom ul li {
+            text-decoration: none;
+            list-style: none;
+        }
+    
+        .address-bottom ul li p {
+            font-size: 14px;
+        }
+    
+        .navigate {
+            padding-left: 22px;
+        }
+    
+        .navigate2 {
+            padding-left: 0px;
+        }
+    
+        .navigate-left h5 {
+            padding-bottom: 30px;
+        }
+    
+        .navigate-left ul {
+            list-style: none;
+            padding-left: 0px;
+        }
+    
+        .navigate-left ul li {
+            list-style: none;
+            padding-bottom: 5px;
+        }
+    
+        .navigate-right ul {
+            padding-top: 60px;
+            padding-left: 0px;
+        }
+    
+        .navigate-right ul li {
+            list-style: none;
+            padding-bottom: 5px;
+        }
+    
+        .buttonfooterall {
+            padding-top: 65px;
+            padding-left: 25px;
+            padding-right: 132px;
+        }
+    
+        .buttonfooter button {
+            width: 173px;
+            height: 40px;
+            border-radius: 100px;
+            background-color: #333333;
+            font-size: 14px;
+        }
+    
+        .buttonfooter button:hover {
+            background-color: black;
+        }
+    
+        .buttonfooter button img {
+            padding-bottom: 5px;
+        }
+    
+        .top-ft {
+            padding-bottom: 15px;
+        }
+    
+        .footer-bottom {
+            width: 100%;
+            height: 50px;
+            background-color: #DCDCDC;
+    
+        }
+    
+        .footer-bottom p {
+            font-size: 12px;
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+    
+        .rightftbottom {
+            padding-left: 183px;
+        }
+    
+        .buttondown {
+            padding-right: 46px;
+        }
+    
+        .footer-top .container {
+            height: 250px;
+        }
+    
+        .icon-buttondown {
+            padding-right: 21px;
+        }
+    
+        .banner-about {
+            height: 250px;
+            padding: 0px;
+        }
+    
+        .link-index {
+            padding-left: 0px;
+        }
+    
+        .link-index .link li {
+            list-style: none;
+        }
+    
+        .link {
+            padding-top: 40px;
+            padding-left: 0px;
+        }
+    
+        .link a:hover {
+            color: #A2171C;
+        }
+    
+        .link-index .link li a {
+            text-decoration: none;
+            font-size: 14px;
+        }
+    
+        .banner-about-us {
+            display: none;
+        }
+    
+        .link-home {
+            color: #B1B1B1;
+        }
+    
+        .link-about-us {
+            color: #A2171C;
+        }
+    
+        .first-content {
+            padding-top: 38px;
+        }
+    
+        .first-content-left {
+            width: 720px;
+            height: 246px;
+        }
+    
+        .text-first-content {
+            padding-left: 0px;
+            font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            /* text-align: center; */
+        }
+    
+        .first-content-left {
+            width: 604px;
+        }
+    
+        .img-first-content {
+            padding-left: 90px;
+        }
+    
+        .last-content-about-us {
+            margin-top: 95px;
+            height: 525px;
+            width: 100%;
+            background-image: url('images/banner-down-about-us.png');
+        }
+    
+        .main-content {
+            margin-left: 100px;
+        }
+    
+        .parent-div-about-us {
+            width: 100%;
+            height: 525px;
+            position: relative;
+        }
+    
+        .child-big {
+            width: 100%;
+            height: 525px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+    
+        .child-small {
+            width: 68%;
+            height: 115px;
+            background-color: #FFFFFF;
+            position: absolute;
+            border-radius: 5px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+            top: -57.5px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: relative;
+        }
+    
+        .child-small p {
+            font-size: 18px;
+            font-style: italic;
+            font-family: 'Lato', sans-serif;
+            padding-left: 95px;
+            padding-right: 100px;
+            padding-top: 29px;
+            padding-bottom: 33px;
+        }
+    
+        .child-small img {
+            position: absolute;
+    
+        }
+    
+        .child-small-icon-first {
+            top: 26px;
+            left: 95px;
+        }
+    
+        .child-small-icon-last {
+            bottom: 29px;
+            right: 145px;
+        }
+    
+        .child-big .col-6 {
+            display: flex;
+            align-items: center;
+        }
+    
+        .last-content-left {
+            padding-top: 0px;
+            padding-left: 236px;
+            padding-right: 160px;
+        }
+    
+        .text-left-child-big {
+    
+            padding-right: 20px;
+        }
+    
+        .text-left-child-big h3 {
+            font-size: 16px;
+            color: #A2171C;
+            font-weight: 600;
+        }
+    
+        .text-left-child-big p {
+            width: 275px;
+            height: 96px;
+            font-size: 14px;
+        }
+    
+        .text-right-child-big h3 {
+            font-size: 16px;
+            color: #A2171C;
+            font-weight: 600;
+        }
+    
+        .last-content-left-img {
+            margin-bottom: 14px !important;
+        }
+    
+        .text-right-child-big p {
+            width: 305px;
+            height: 96px;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+    
+        .buttonfooter p {
+            display: inline;
+        }
+    
+        .last-content-right {
+            padding-top: 0px;
+            padding-left: 160px;
+            padding-right: 245px;
+        }
+    
+        .button-header {
+            border: none;
+        }
+    
+        .last-content-about-us {
+            background-image: url('images/banner-down-about-us.png');
+        }
+    
+        @media only screen and (max-width: 414px) {
+            .last-content-about-us {
+                background-image: url('images/banner-last-content-mobile.png');
+            }
+    
+            .img-about-us-mobile {
+                padding-top: 30px;
+            }
+    
+            .link-index {
+                padding-left: 18px;
+                margin-top: 32px;
+                margin-bottom: 32px;
+            }
+    
+            .link {
+                padding-top: 0px;
+            }
+    
+            .first-content {
+                width: 100%;
+                padding-top: 0px;
+                margin-bottom: 170px;
+            }
+    
+            .about-content {
+                padding-bottom: 60px;
+                padding-left: 18px;
+                padding-right: 18px;
+            }
+    
+            .first-content-left {
+                margin-bottom: 90px;
+            }
+    
+            .img-first-content {
+                padding-left: 24px;
+                width: 401px;
+            }
+    
+            .child-small {
+                width: 365px;
+                height: 260px;
+                position: absolute;
+                left: 207px;
+                top: -130px;
+            }
+    
+            .text-center {
+                padding-left: 44px;
+            }
+    
+            .parent-div-about-us {
+                position: relative;
+            }
+    
+            .child-small p {
+                padding-top: 63px;
+                padding-bottom: 62px;
+                height: 298px;
+                padding-right: 44px;
+                width: 372px;
+                padding-left: 30px;
+            }
+    
+            .child-small-icon-first {
+                top: 37px;
+                left: 35px;
+            }
+    
+            .child-small-icon-last {
+                bottom: 2px;
+                right: 23px;
+            }
+    
+            .all-last-content {
+                width: 100%;
+                height: 1012px;
+            }
+    
+            .last-content-about-us {
+                background-image: none;
+            }
+    
+            .img-left-child-big {
+                padding-top: 200px;
+            }
+    
+            .text-left-child-big {
+                padding-left: 0px;
+                margin-top: 30px;
+            }
+    
+            .img-right-child-big {
+                padding-left: 130px;
+            }
+    
+            .text-right-child-big {
+                padding-left: 130px;
+            }
+    
+            .footer-top {
+                width: 100% !important;
+                height: 650px;
+            }
+    
+            .footerall {
+                margin-top: 480px;
+                width: 100%;
+                height: 650px;
+            }
+    
+            .address {
+                height: 211px;
+                width: 235px;
+            }
+    
+            .all-navigate {
+                width: 100%;
+            }
+    
+            .buttonfooterall {
+                padding-left: 32px;
+    
+            }
+    
+            .buttonfooter button {
+                width: 350px;
+                padding-left: 22px;
+            }
+    
+            .buttonfooter p {
+                padding-right: 200px;
+            }
+    
+            .footer-bottom {
+                width: 100%;
+                height: 113px;
+            }
+    
+            .first-footer-bottom {
+                padding-left: 45px;
+                padding-right: 45px;
+                width: 390px;
+            }
+    
+            .first-footer-bottom p {
+                text-align: center;
+            }
+    
+            .rightftbottom {
+                padding-left: 160px;
+            }
+    
+            .rightftbottom p {
+                padding-left: 0px;
+                width: 100px;
+                padding-top: 0px;
+            }
+    
+            .main-content {
+                margin-left: 0px;
+            }
+    
+            .navbar-brand img {
+                padding-right: 0px;
+                width: 150px;
+                padding-top: 0px;
+                padding-left: 25px;
+            }
+    
+            .headerft {
+                width: 380px;
+                margin: 0px;
+            }
+    
+            #rightheader {
+                padding-top: 0px;
+            }
+    
+            #navbarNav {
+                display: none;
+            }
+    
+            #header-all {
+                width: 100%;
+            }
+    
+            footer {
+                width: 100%;
+            }
+    
+            .child-big {
+                width: 100%;
+            }
+    
+            .last-content-about-us {
+                width: 100%;
+            }
+    
+            .parent-div-about-us {
+                width: 100%;
+            }
+    
+            .navbar-collapse {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                bottom: 0;
+                z-index: 1000;
+                padding-top: 3.5rem;
+                background-color: #fff;
+                width: 58%;
+                height: 413px;
+                transition: right 0.5s ease;
+            }
+    
+            .navbar-collapse.show {
+                right: 0;
+            }
+    
+            .navbar-nav {
+                margin-right: auto;
+            }
+    
+            .navbar-nav .nav-item {
+                margin: 20px 0;
+            }
+    
+            .navbar-nav {
+                margin-left: auto;
+            }
+    
+            .nav-item {
+                transition: margin 0.4s ease;
+    
+            }
+    
+            .nav-item .nav-link {
+                padding-left: 10px
+            }
+    
+            .nav-item.show {
+                margin-left: 0;
+            }
+    
+    
+    
+            #navbarSupportedContent {
+                padding-top: 35px;
+            }
+    
+            .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                z-index: 999;
+                display: none;
+            }
+    
+            .overlay.active {
+                display: block;
+            }
+    
+            .all-navigate {
+                padding-left: 20px;
+            }
+    
+        }
+}
